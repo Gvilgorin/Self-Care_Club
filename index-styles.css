@@ -22,7 +22,7 @@
   background-size: cover;
 }
 
-.staff-img{
+#staff-img{
   /* font-family: 'Sriracha', cursive; */
 
   /* background-image: url(https://mcdn.wallpapersafari.com/medium/98/3/qvW4Ke.png); */
@@ -47,10 +47,10 @@
 
 .caption{
   font-family: 'Sriracha', cursive;
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 40%;
-  width: 100%;
+  width: 100%; */
   text-align: center;
 }
 
