@@ -1,0 +1,83 @@
+.container, .container-fluid{
+  font-family: 'Sriracha', cursive;
+}
+
+#staffteam img{
+  border-radius: 50%;
+}
+
+
+#banner{
+  /* background-color: #F397D6; */
+  /* The image used */
+  background-image: url(https://66.media.tumblr.com/cd0edd63b58a03f7ab29dbca02d6765d/tumblr_nlfvwxPl9K1u289dqo1_500.png);
+
+  /* Set a specific height */
+  height: 650px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.staff-img{
+  /* font-family: 'Sriracha', cursive; */
+
+  /* background-image: url(https://mcdn.wallpapersafari.com/medium/98/3/qvW4Ke.png); */
+  background-image: url(images/staff4.jpg);
+  background-color: #D7B8F3;
+  height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: rgb(153,8,110); */
+  -webkit-text-stroke: 3px black;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+
+.caption{
+  font-family: 'Sriracha', cursive;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+#mission{
+  height: 500px;
+  /* text-align: center; */
+  font-size: 2em;
+}
+
+#mission h3{
+  text-decoration: underline;
+  /* color: black; */
+}
+
+#servericon{
+  border-radius: 50%;
+  width: auto;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+
+td p{
+  font-size: 1.5em;
+}
+
+
+/* html, body{
+  height: 100%;
+} */
