@@ -1,0 +1,42 @@
+#staffteam img{
+  border-radius: 50%;
+}
+
+#banner{
+  /* background-color: #F397D6; */
+  /* The image used */
+  background-image: url(images/sunset.jpeg);
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption{
+  font-family: 'Sriracha', cursive;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+#mission{
+  height: 200px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#mission h3{
+  text-decoration: underline;
+  color: black;
+}
+
+html, body{
+  height: 100%;
+}
