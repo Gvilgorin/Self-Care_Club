@@ -4,111 +4,222 @@
     <meta charset="utf-8">
     <title>Self Care Club</title>
     <link rel="stylesheet" href="index-styles.css">
+    <link rel="stylesheet" href="photo-grid.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="icon" href="images/server-icon.gif">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 
-  </head>
-  <body style="background-color: #B8B8F3">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:#D7B8F3">
-      <a href="#" class="navbar-brand">
-        <img src="images/server-icon.gif" width="auto" height="35" style="border-radius: 50%;" alt="Self Care Club">
-        Self Care Club
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    </head>
+    <body style="background-color: #B8B8F3">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:#D7B8F3">
+        <a href="#" class="navbar-brand">
+          <img src="images/server-icon.gif" width="auto" height="35" style="border-radius: 50%;" alt="Self Care Club">
+          Self Care Club
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <!-- <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Events</a> -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Events</a> -->
+          </div>
+        </div>
+      </nav>
+
+      <div id="banner" class="jumbotron text-center" style="background-color:#F397D6;">
+        <div class="row h-100">
+          <div class="caption col-xl my-auto">
+            <h3 class="display-3 text-dark">Welcome To Self Care Club</h3>
+            <p class="lead text-dark">Hope you enjoy your time with us!</p>
+          </div>
         </div>
       </div>
-    </nav>
 
-    <div id="banner" class="jumbotron text-center" style="background-color:#F397D6;">
-      <div class="caption text-dark">
-        <h1 class="display-3">Welcome To Self Care Club</h1>
-        <p class="lead">Hope you enjoy your time with us!</p>
-      </div>
-    </div>
+      <div id="mission" class="container">
+        <div class="row h-100">
+          <div class="col-sm-8 my-auto">
+            <h3>Our Mission</h3>
+            <p class="text-light">self-care club is about uplifting yourself, bonding with other members, accomplishing your goals, and so much more! our focus is to give you the positivity and encouragement you need to thrive</p>
+          </div>
 
-    <div id="mission" class="container">
-      <div class="row h-100">
-        <div class="col-sm-8 my-auto">
-          <h3>Our Mission</h3>
-          <p class="text-light">self-care club is about uplifting yourself, bonding with other members, accomplishing your goals, and so much more! our focus is to give you the positivity and encouragement you need to thrive</p>
-        </div>
-
-        <div class="col-sm-4 my-auto text-center">
-          <img id="servericon" src="images/server-icon.gif" alt="server-icon image not found."><br>
-          <button class="btn btn-outline-light btn-lg shadow rounded"type="button" name="button">Join Our Discord</button>
+          <div class="col-sm-4 my-auto text-center">
+            <img id="servericon" src="images/server-icon.gif" alt="server-icon image not found."><br>
+            <button class="btn btn-outline-light btn-lg shadow rounded"type="button" name="button">Join Our Discord</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container-fluid staff-img">
-      <div class="row h-100">
-        <div class="col-sm-12 my-auto text-center">
-          <h3 class="display-3 text-light">Discord Staff</h3>
+      <div id="selfcaretips" class="container-fluid">
+        <div class="row h-100">
+            <div class="col-sm-12 my-auto text-center">
+              <h3 class="display-3 text-light">Self Care Tips and Quotes</h3>
+              </div>
+            </div>
+        </div>
+
+      <div id="photo" class="container-fluid" style="background-color: rgb(175, 210, 250);">
+        <ul id="categories" class="clr">
+          <li class="pusher"></li>
+        	<li>
+              <div>
+                <img src="https://cdn.discordapp.com/attachments/698646505892085890/724639731576602736/Screenshot_20200622-095546_WEBTOON2.jpg" alt=""/>
+                <h1>This is a title a bit longer</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+            <li>
+              <div>
+                <img src="https://media.discordapp.net/attachments/719064680026341389/729635872823312434/image3.jpg" alt=""/>
+                <h1>This is a title</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+          <li>
+              <div>
+                <img src="https://media.discordapp.net/attachments/719064680026341389/728282271940870224/image2.png?width=667&height=675" alt=""/>
+                <h1>This is a title</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+          <li>
+              <div>
+                <img src="https://media.discordapp.net/attachments/719064680026341389/727499423713591316/image1.jpg?width=675&height=675" alt=""/>
+                <h1>This is a title</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+          <li>
+              <div>
+                <img src="https://media.discordapp.net/attachments/719064680026341389/726584781860765776/IMG_3880.gif" alt=""/>
+                <h1>This is a title</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+          <li>
+              <div>
+                <img src="https://media.discordapp.net/attachments/719064680026341389/720150054115082290/image0.png?width=692&height=675" alt=""/>
+                <h1>This is a title</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+          <li>
+              <div>
+                <img src="https://media.discordapp.net/attachments/719064680026341389/730406307282288765/image0.jpg?width=674&height=675" alt=""/>
+                <h1>This is a title</h1>
+                <p>Some sample text about the article this hexagon leads to</p>
+            </div>
+          </li>
+        </div>
+        <!-- <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="https://cdn.discordapp.com/attachments/698646505892085890/724639731576602736/Screenshot_20200622-095546_WEBTOON2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-4 w-50 h-50">
+                    <img src="https://cdn.discordapp.com/attachments/698646505892085890/724015618336227478/image2.png" class="img-fluid img-thumbnail shadow" alt="">
+                  </div>
+                  <div class="col-md-4 w-50 h-50">
+                    <img src="https://cdn.discordapp.com/attachments/698646505892085890/724015617694367785/image0.png" class="img-fluid img-thumbnail shadow" alt="">
+                  </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="https://cdn.discordapp.com/attachments/698646505892085890/722730039128489994/image0.png" class="img-fluid img-thumbnail shadow" alt="">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://cdn.discordapp.com/attachments/698646505892085890/719425172561723412/image0.jpg" class="img-fluid img-thumbnail shadow" alt="">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://cdn.discordapp.com/attachments/698646505892085890/718954017413136405/self-care.png" class="img-fluid img-thumbnail shadow" alt="">
+                  </div>
+                </div>
+              </div> -->
+
+      <div id="staff-img" class="container-fluid">
+        <div class="row h-100">
+          <div class="col-sm-12 my-auto text-center">
+            <h3 class="display-3 text-light">Discord Staff</h3>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div id="wrapper" class="container-fluid" style="background-color: rgb(120,136,214)">
+      <div id="wrapper" class="container-fluid" style="background-color: rgb(120,136,214);">
 
-      <table id="staffteam" class="container table">
-        <!-- <thead class="text-center h3">
-          <tr>
-            <th colspan="2">Staff Team</th>
-          </tr>
-        </thead> -->
-        <tbody class="text-center text-light">
-          <tr>
-            <td class="align-middle">
-              <p>My name is angel—im the owner & creator of the self-care club! I started this server to give people support, and also to inspire both them (and me!) to grow physically, mentally, and emotionally. Outside of SCC, I love working as a barista, playing games, and spending time with my loved ones ♡</p>
-            </td>
-            <td class="align-middle">
-              <img src="https://images-ext-1.discordapp.net/external/Nwf7rI1-ZtlZVE2ZnCtWowW04gVGgKy1lLZZOejCL6g/%3Fsize%3D256/https/cdn.discordapp.com/avatars/301548163028877316/39babc0ba66b8fc77738648eea7008c8.png" alt="image not found">
-              <h3>Angel</h3>
-            </td>
-          </tr>
-          <tr>
-            <td class="align-middle">
-              <img src="https://images-ext-1.discordapp.net/external/MioeD1U7SIMDdhkRKFPIh-1Gy31MICbpyaikQ0p01iI/%3Fsize%3D256/https/cdn.discordapp.com/avatars/139149482246799362/b2eaa727f61060a50f18bab12fd85b74.png" alt="image not found">
-              <h3>Greggy</h3>
-            </td>
-            <td class="align-middle">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </td>
-          </tr>
-          <tr>
-            <td class="align-middle">
-              <p>Hi! My name is Colby, I'm an admin of the self-care club. I spend a lot of my free time playing games and working to better myself. I consider myself a very friendly and caring person. My favorite way to practice self care is working out and this server has helped me a lot with that by keeping me motivated and encouraging me to do my best.</p>
-            </td>
-            <td class="align-middle">
-              <img src="https://images-ext-1.discordapp.net/external/pmm9KoD9rETFF_c4DAo9peBfEPRO4cqHqgNDmR0hs9Q/%3Fsize%3D256/https/cdn.discordapp.com/avatars/134865550768734208/b9545a094a13293b08b9451ec4eef681.png" alt="image not found">
-              <h3>Colby</h3>
-            </td>
-          </tr>
-          <tr>
-            <td class="align-middle">
-              <img src="https://images-ext-1.discordapp.net/external/Zc3BJe2kNP3YGD7uALbym1O-DBnZSjmOg3QXY8kbtUE/%3Fsize%3D256/https/cdn.discordapp.com/avatars/628852501080178719/e6febbaca2bcc942d5e62fcda39091f5.png" alt="image not found">
-              <h3>Kai</h3>
-            </td>
-            <td class="align-middle">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+        <table id="staffteam" class="container table">
+          <!-- <thead class="text-center h3">
+            <tr>
+              <th colspan="2">Staff Team</th>
+            </tr>
+          </thead> -->
+          <tbody class="text-center text-light">
+            <tr>
+              <td class="align-middle">
+                <p>My name is angel—im the owner & creator of the self-care club! I started this server to give people support, and also to inspire both them (and me!) to grow physically, mentally, and emotionally. Outside of SCC, I love working as a barista, playing games, and spending time with my loved ones ♡</p>
+              </td>
+              <td class="align-middle">
+                <img src="https://cdn.discordapp.com/avatars/301548163028877316/a_171542806949ee49fd1985599e61f606.gif?size=256" alt="image not found">
+                <h3>Angel</h3>
+              </td>
+            </tr>
+            <tr>
+              <td class="align-middle">
+                <img src="https://images-ext-1.discordapp.net/external/MioeD1U7SIMDdhkRKFPIh-1Gy31MICbpyaikQ0p01iI/%3Fsize%3D256/https/cdn.discordapp.com/avatars/139149482246799362/b2eaa727f61060a50f18bab12fd85b74.png" alt="image not found">
+                <h3>Greggy</h3>
+              </td>
+              <td class="align-middle">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="align-middle">
+                <p>Hi! My name is Colby, I'm an admin of the self-care club. I spend a lot of my free time playing games and working to better myself. I consider myself a very friendly and caring person. My favorite way to practice self care is working out and this server has helped me a lot with that by keeping me motivated and encouraging me to do my best.</p>
+              </td>
+              <td class="align-middle">
+                <img src="https://images-ext-1.discordapp.net/external/pmm9KoD9rETFF_c4DAo9peBfEPRO4cqHqgNDmR0hs9Q/%3Fsize%3D256/https/cdn.discordapp.com/avatars/134865550768734208/b9545a094a13293b08b9451ec4eef681.png" alt="image not found">
+                <h3>Colby</h3>
+              </td>
+            </tr>
+            <tr>
+              <td class="align-middle">
+                <img src="https://images-ext-1.discordapp.net/external/Zc3BJe2kNP3YGD7uALbym1O-DBnZSjmOg3QXY8kbtUE/%3Fsize%3D256/https/cdn.discordapp.com/avatars/628852501080178719/e6febbaca2bcc942d5e62fcda39091f5.png" alt="image not found">
+                <h3>Kai</h3>
+              </td>
+              <td class="align-middle">
+                <p>Aloha! My name is Kaila, I'm a Mod in the self-care club. I spend a lot of time at the beach and working too. Though in my free time, I love reading books and listening to music. I am sweet and easy to talk to, so if you need anyone to talk to, I am your gal. My favorite way to pratice self-care is going to the beach, listening to music and relaxing while practicing breathing excerises. This server brings me so much joy when I see all the new friendly newcomers. I hope to you there.</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="align-middle">
+                <p>My name is Flo. I’m a Moderator in the self-care club. I live in England and I currently work in Children's/Adolescent Mental Health. I'm a massive nerd and a crazy cat lady. I'm a approachable, bubbly person so I'm always up for a good chat!</p>
+              </td>
+              <td class="align-middle">
+                <img src="https://cdn.discordapp.com/avatars/305672919294410772/0340623700480441d51880f441f0a3b1.png?size=256" alt="image not found">
+                <h3>Flo</h3>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+      </div>
 
-    </div>
+      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <small>Copyright &copy; Self Care Club</small>
+          </div>
+        </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+
 </html>

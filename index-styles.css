@@ -22,7 +22,7 @@
   background-size: cover;
 }
 
-.staff-img{
+#staff-img{
   /* font-family: 'Sriracha', cursive; */
 
   /* background-image: url(https://mcdn.wallpapersafari.com/medium/98/3/qvW4Ke.png); */
@@ -47,12 +47,46 @@
 
 .caption{
   font-family: 'Sriracha', cursive;
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 40%;
-  width: 100%;
+  width: 100%; */
   text-align: center;
 }
+
+#selfcaretips{
+  /* font-family: 'Sriracha', cursive; */
+
+  /* background-image: url(images/newletter.jpg); */
+  /* background-image: url(https://wallpapercave.com/wp/wp4278618.jpg); */
+  background-image: url(https://img2.goodfon.com/wallpaper/big/b/3f/keksy-yumor-art-minimalizm.jpg);
+  background-color: #D7B8F3;
+  height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: rgb(153,8,110); */
+  -webkit-text-stroke: 3px black;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+
+.caption{
+  font-family: 'Sriracha', cursive;
+  /* position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%; */
+  text-align: center;
+}
+
 
 #mission{
   height: 500px;
@@ -76,6 +110,11 @@
 td p{
   font-size: 1.5em;
 }
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
 
 
 /* html, body{
